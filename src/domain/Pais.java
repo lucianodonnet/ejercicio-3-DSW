@@ -3,12 +3,11 @@ package domain;
 
 
 public class Pais {
-    private int nombre;
+    private String nombre;
     
     public Pais(){}
-    public Pais(int nombre) {
+    public Pais(String nombre) {
         this.nombre = nombre;
     }
-    
-    
+   
 }
